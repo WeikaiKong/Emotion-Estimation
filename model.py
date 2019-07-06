@@ -14,8 +14,8 @@ import time
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 from keras.models import model_from_json
-model = model_from_json(open("model_structure.json", "r").read())
-model.load_weights('weights.h5') 
+model = model_from_json(open("data/model_structure.json", "r").read())
+model.load_weights('data/weights.h5') 
 #-----------------------------
 
 emotions = ('angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral')
