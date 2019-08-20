@@ -1,22 +1,31 @@
 # Emotion-Estimation
-An initial release of Emotion Estimation
 
-## Introduction ##
-A real-time facial emotion estimation model.
+This is the code repository for a realtime facial expression pretrained model.
 
-## Dependencies ## 
--- Python >=2.7
+## Directory:
 
-## Start ##
-Firstly, install libaries.  
-```bash
-$ pip install keras numpy cv2
-```
-Then.
-```bash
-$ cd Emotion-Estimation
-```
-Lastly.
+<!--ts-->
+* [Prerequisites](#Prerequisites:)
+* [Test](#Test:)
+* [Contributors](#Contributors:)
+
+## Prerequisites: 
+
+    Python (ver. 2.7.0)
+    Numpy (ver. 1.13.3)
+    TensorFlow (ver. 1.4.1)
+    Opencv(ver. 3.4.2)
+
+## Test:
+
+To test emotion estimation pretrain model
 ```bash
 $ python model.py
 ```
+## Contributors:
+
+[Weikai Kong](https://github.com/WeikaiKong), mentored by [Xiangjun Peng](https://github.com/Shiangjun)
+
+<br>
+
+
