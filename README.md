@@ -2,6 +2,10 @@
 
 This is the code repository for a realtime facial expression pretrained model.
 
+## Motivation
+
+To analyze user behaviours under automatic driving of OpenDS, a pretrained model was develped to estimate seven kinds of emotions including angry, disgust, fear, sad, surprise and neutral. 
+
 ## Directory:
 
 <!--ts-->
