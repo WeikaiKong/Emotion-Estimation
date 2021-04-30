@@ -11,7 +11,7 @@ import cv2
 from keras.preprocessing import image
 import time
 
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('data/haarcascade_frontalface_default.xml')
 
 from keras.models import model_from_json
 model = model_from_json(open("data/model_structure.json", "r").read())
