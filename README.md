@@ -15,10 +15,11 @@ To analyze user behaviours under automatic driving of OpenDS, a pretrained model
 
 ## Prerequisites: 
 
-    Python (ver. 2.7.0)
+    Python (ver. 3.6.0)
     Numpy (ver. 1.13.3)
-    TensorFlow (ver. 1.4.1)
-    Opencv(ver. 3.4.2)
+    TensorFlow-gpu (ver. 2.3.0)
+    Opencv(ver. 4.0.1)
+    keras-gpu (ver. 2.4.3)
 
 ## Test:
 
